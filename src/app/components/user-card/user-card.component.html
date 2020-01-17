@@ -1,0 +1,6 @@
+<div class="user-card" *ngIf="afAuth.user | async as user">
+  <img src="{{ user.photoURL }}" class="user-image" alt="{{ user.displayName }}">
+  <br>
+  {{ user.displayName }} <br>
+  <small><a (click)="logout()">sair</a></small>
+</div>

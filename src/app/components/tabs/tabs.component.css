@@ -1,0 +1,26 @@
+.tabs {
+  display: flex;
+  list-style: none;
+}
+
+.tabs li {
+  display: inline;
+  padding-right: 50px;
+}
+
+.tabs li a {
+  color: rgba(0, 0, 0, 0.2);
+  transition-duration: 0.5s;
+  transition: color 1s;
+}
+
+.tabs li a:hover {
+  color: rgba(0, 0, 0, 0.8);
+  transition: color 1s;
+}
+
+.tabs .selected {
+  color: #fa5b70 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
