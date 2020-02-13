@@ -1,0 +1,19 @@
+textarea,
+input {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  border: none;
+  border-bottom: 5px solid #979797;
+  resize: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.error {
+  color: #ff0000;
+}

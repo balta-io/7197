@@ -1,0 +1,55 @@
+.todos {
+  list-style: none;
+  font-size: 1.5em;
+  margin-left: 25px;
+}
+
+.todos li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.todos li:hover {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.todos li a {
+  color: rgba(0, 0, 0, 0.6);
+  transition-duration: 0.5s;
+  transition: color 0.5s;
+}
+
+.todos li a:hover {
+  color: rgba(0, 0, 0, 1);
+  transition: color 0.5s;
+}
+
+.todos .remove-item {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+  float: right;
+}
+
+.todos li:hover .remove-item {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
+.todos li a small {
+  font-size: 0.6em;
+}
+
+.todos .done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}

@@ -1,0 +1,11 @@
+<ul class="todos" *ngIf="todos">
+  <li *ngFor="let todo of todos">
+    <div *ngIf="!todo.done">
+      <a class="remove-item" (click)="markAsDone(todo)"><i class="fa fa-check"></i></a>
+    </div>
+    <a [ngClass]="{ 'done' : todo.done}">
+      {{ todo.title }} <br>
+      <small>{{ todo.date | date: 'dd/MM/yy' }}</small>
+    </a>
+  </li>
+</ul>

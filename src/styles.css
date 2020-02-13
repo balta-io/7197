@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fafafa;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #fa4d73;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #fa5b70;
+  transition: color 1s;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.container {
+  width: 980px;
+  background-color: #fff;
+  background-image: url("./assets/icon.png");
+  background-repeat: no-repeat;
+  background-position-x: -100px;
+  background-position-y: -100px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.inner-container {
+  margin: 25px;
+}

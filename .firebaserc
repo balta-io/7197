@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "todos-daba8": {
+      "hosting": {
+        "Todo": [
+          "todos-daba8"
+        ]
+      }
+    }
+  }
+}
